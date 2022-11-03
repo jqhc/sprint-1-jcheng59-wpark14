@@ -1,0 +1,72 @@
+/*
+  This is a reasonable starting point for the CSS in Sprint 1.
+  Positioning in CSS can sometimes be annoying to manage, so we've opted to 
+  give you this starter CSS. Feel free to modify it as you wish, though.
+*/
+
+body {
+    background-color: #c8c8c8;
+    overflow:hidden;
+    height:100%;
+}
+
+#repl {
+    position:relative;
+    min-height:95vh;
+}
+
+#repl-history {     
+    position: relative; 
+    height:85vh;
+    margin: auto;
+    overflow-y: auto;
+    display: flex; 
+    flex-direction: column;
+}
+
+.response-box {
+    border: solid 1px black;
+    margin: 20px;
+    position: relative;
+    background-color: #ababab;
+}
+
+.response-text {
+    margin: 5px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.error-box {
+    border: solid 1px red;
+    margin: 20px;
+    position: relative;
+    background-color: lightcoral;
+}
+
+.error-text {
+    margin: 5px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#history-separator {
+    border: solid 2px grey;
+}
+
+#repl-input-box {
+    width: 97%;
+    margin: 20px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.blurred {
+    background-color: #d6d6d6;
+}
+
+.focused {
+    background-color: #ebebeb;
+}
+
+
